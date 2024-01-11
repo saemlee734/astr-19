@@ -1,0 +1,13 @@
+#this is a comment
+#this program will write an introduction about me
+
+#this function tells the computer how to print my introduction
+def PrintIntroduction():
+    print("Hello my name is Sabrina Lee! My pronouns are she/her. My favorite movie is Beauty and the Beast. My favorite food is pasta.")
+
+#this is the program that will be run by python 
+def main():
+    PrintIntroduction()
+
+if __name__ =="__main__":
+    main()
