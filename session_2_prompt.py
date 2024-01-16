@@ -6,14 +6,14 @@
 #Let user know that about first part
 print("This code will print the sum of two floating point numbers.")
 
-#Have user input first floating point number
-floating_number_input_1 = float(input("Enter your first floating point number: "))
+#first floating point number
+floating_number_1 = float(0.09)
 
-#have user input second floating point number
-floating_number_input_2 = float(input("Enter your second floating point number: "))
+#second floating point number
+floating_number_2 = float(0.01)
 
 #take the sum of both floating point numbers
-floating_point_sum = floating_number_input_1 + floating_number_input_2
+floating_point_sum = floating_number_1 + floating_number_2
 
 #return sum to user
 print("Sum of both floating point numbers: ", floating_point_sum)
@@ -24,11 +24,11 @@ print("Data type of floating point sum: ", type(floating_point_sum))
 #Let user know that this is the second part of the code
 print("This code will print the difference between two integers.")
 
-#have user input first integer
-integer_1 = int(input("Enter your first integer: "))
+#first integer
+integer_1 = int(3)
 
-#have user input second integer
-integer_2 = int(input("Enter your second integer: "))
+#second integer
+integer_2 = int(5)
 
 #calculate difference of integers
 integer_difference = integer_1 - integer_2
@@ -43,10 +43,10 @@ print("The data type of the integer difference is: ", type(integer_difference))
 print("This part of the code will take a floating point number and an integer and calculate the product.")
 
 #get floating point number from user
-float_number_part_3 = float(input("Enter a floating point number: "))
+float_number_part_3 = float(0.05)
 
 #get an integer from the user
-integer_part_3 = int(input("Enter an integer: "))
+integer_part_3 = int(6)
 
 #calculate the product of the two numbers
 product_part_3 = float_number_part_3 * integer_part_3
